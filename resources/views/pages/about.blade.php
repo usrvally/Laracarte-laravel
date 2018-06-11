@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' =>'About'])
 
 @section('content')
 <div class="container">
@@ -15,7 +15,7 @@
                </p>
             </div>  
         </div>
-        <p>Feel free to help to improve the <a href="#">Source code.</a></p>
+        <p>Feel free to help to improve the <a href="https://github.com/usrvally/Laracarte-laravel">Source code.</a></p>
 
         <hr>
 

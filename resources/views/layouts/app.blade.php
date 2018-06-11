@@ -2,8 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Laracart</title>
 
+    <title>{{ page_title($title ??'')}}</title>
+    <!-- <title>{{isset($title) ? $title .' | ' : ''}} Laracarte - List of artisans</title> -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
