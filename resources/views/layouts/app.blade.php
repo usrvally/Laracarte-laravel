@@ -28,6 +28,7 @@
     integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
     crossorigin="anonymous">
 
+    
     </head>
     <body>
     @include('layouts/partials/_nav')
@@ -40,6 +41,7 @@
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
     crossorigin="anonymous"></script>
     
+    @include('flashy::message')
     <style>
         body{
             font-family: 'Open Sans',Helvetica, Arial, Sans-serif; 
